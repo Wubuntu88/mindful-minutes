@@ -9,9 +9,9 @@ Here is a helpful tutorial I used to fetch mindful minutes data: https://by.ben.
 This app is a demo of how one can access mindful minute data via the iOS HealthKit API.
 
 ## UI diagram
-![alt UI Diagram](readme_images/mindful_minutes.png)
+![alt UI Diagram](readme_images/mindful_minutes_crop.png)
 
-# Anatomy of returned data
+# Structure of Mindful Minutes messages
 The Data that come from the HealthKit is an array of type HKCategorySample, 
 wrapped as an optional array of HKSample ([HKSample]?).
 Each HKSample instance is an entire meditation instance, or an interrupted meditation.
