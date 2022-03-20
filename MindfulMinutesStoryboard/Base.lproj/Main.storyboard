@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MindfulMinutesStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Mindful Minutes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9q-NP-Ple">
+                                <rect key="frame" x="114.5" y="44" width="185" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTD-tE-mU1">
+                                <rect key="frame" x="130" y="73" width="154.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="tinted" title="Get Mindful Minutes"/>
+                                <connections>
+                                    <action selector="getMindfulMinutes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="buo-wN-MoY"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Mindful Minutes in the last 24 hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2r-uH-2PF">
+                                <rect key="frame" x="20" y="112" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="m9q-NP-Ple" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="55u-RO-FIl"/>
+                            <constraint firstItem="h2r-uH-2PF" firstAttribute="top" secondItem="fTD-tE-mU1" secondAttribute="bottom" constant="8" symbolic="YES" id="7sj-9R-Vzt"/>
+                            <constraint firstItem="m9q-NP-Ple" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="CRj-we-cR8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="h2r-uH-2PF" secondAttribute="trailing" id="Ssp-YQ-fPV"/>
+                            <constraint firstItem="fTD-tE-mU1" firstAttribute="firstBaseline" secondItem="m9q-NP-Ple" secondAttribute="baseline" constant="33" symbolType="layoutAnchor" id="WIQ-mf-Yis"/>
+                            <constraint firstItem="h2r-uH-2PF" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Zfe-iU-YS1"/>
+                            <constraint firstItem="fTD-tE-mU1" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="bBP-BR-1QU"/>
+                            <constraint firstItem="h2r-uH-2PF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gpP-uE-B07"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mindfulMinutesLabel" destination="m9q-NP-Ple" id="NgA-MW-H7p"/>
+                        <outlet property="totalMindfulMinutesLabel" destination="h2r-uH-2PF" id="3OI-FL-DhG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.637681159420293" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

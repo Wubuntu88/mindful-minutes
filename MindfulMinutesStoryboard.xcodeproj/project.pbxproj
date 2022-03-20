@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57CE760827E51A8500B90876 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE760727E51A8500B90876 /* AppDelegate.swift */; };
+		57CE760A27E51A8500B90876 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE760927E51A8500B90876 /* SceneDelegate.swift */; };
+		57CE760C27E51A8500B90876 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE760B27E51A8500B90876 /* ViewController.swift */; };
+		57CE760F27E51A8500B90876 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CE760D27E51A8500B90876 /* Main.storyboard */; };
+		57CE761127E51A8700B90876 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CE761027E51A8700B90876 /* Assets.xcassets */; };
+		57CE761427E51A8700B90876 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57CE761227E51A8700B90876 /* LaunchScreen.storyboard */; };
+		57CE761F27E51A8700B90876 /* MindfulMinutesStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE761E27E51A8700B90876 /* MindfulMinutesStoryboardTests.swift */; };
+		57CE762927E51A8700B90876 /* MindfulMinutesStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE762827E51A8700B90876 /* MindfulMinutesStoryboardUITests.swift */; };
+		57CE762B27E51A8700B90876 /* MindfulMinutesStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CE762A27E51A8700B90876 /* MindfulMinutesStoryboardUITestsLaunchTests.swift */; };
+		57DA933E27E5325400ABBEC9 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57CE763827E51AA600B90876 /* HealthKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57CE761B27E51A8700B90876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CE75FC27E51A8500B90876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CE760327E51A8500B90876;
+			remoteInfo = MindfulMinutesStoryboard;
+		};
+		57CE762527E51A8700B90876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57CE75FC27E51A8500B90876 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CE760327E51A8500B90876;
+			remoteInfo = MindfulMinutesStoryboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57CE760427E51A8500B90876 /* MindfulMinutesStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindfulMinutesStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CE760727E51A8500B90876 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57CE760927E51A8500B90876 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57CE760B27E51A8500B90876 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57CE760E27E51A8500B90876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57CE761027E51A8700B90876 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57CE761327E51A8700B90876 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57CE761527E51A8700B90876 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57CE761A27E51A8700B90876 /* MindfulMinutesStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulMinutesStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CE761E27E51A8700B90876 /* MindfulMinutesStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulMinutesStoryboardTests.swift; sourceTree = "<group>"; };
+		57CE762427E51A8700B90876 /* MindfulMinutesStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindfulMinutesStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57CE762827E51A8700B90876 /* MindfulMinutesStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulMinutesStoryboardUITests.swift; sourceTree = "<group>"; };
+		57CE762A27E51A8700B90876 /* MindfulMinutesStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindfulMinutesStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		57CE763827E51AA600B90876 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		57DA934327E5345200ABBEC9 /* MindfulMinutesStoryboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindfulMinutesStoryboard.entitlements; sourceTree = "<group>"; };
+		57DA934427E5372800ABBEC9 /* MindfulMinutesStoryboardRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MindfulMinutesStoryboardRelease.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57CE760127E51A8500B90876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57DA933E27E5325400ABBEC9 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE761727E51A8700B90876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE762127E51A8700B90876 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57CE75FB27E51A8500B90876 = {
+			isa = PBXGroup;
+			children = (
+				57CE760627E51A8500B90876 /* MindfulMinutesStoryboard */,
+				57CE761D27E51A8700B90876 /* MindfulMinutesStoryboardTests */,
+				57CE762727E51A8700B90876 /* MindfulMinutesStoryboardUITests */,
+				57CE760527E51A8500B90876 /* Products */,
+				57CE763727E51AA600B90876 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		57CE760527E51A8500B90876 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57CE760427E51A8500B90876 /* MindfulMinutesStoryboard.app */,
+				57CE761A27E51A8700B90876 /* MindfulMinutesStoryboardTests.xctest */,
+				57CE762427E51A8700B90876 /* MindfulMinutesStoryboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57CE760627E51A8500B90876 /* MindfulMinutesStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				57DA934427E5372800ABBEC9 /* MindfulMinutesStoryboardRelease.entitlements */,
+				57DA934327E5345200ABBEC9 /* MindfulMinutesStoryboard.entitlements */,
+				57CE760727E51A8500B90876 /* AppDelegate.swift */,
+				57CE760927E51A8500B90876 /* SceneDelegate.swift */,
+				57CE760B27E51A8500B90876 /* ViewController.swift */,
+				57CE760D27E51A8500B90876 /* Main.storyboard */,
+				57CE761027E51A8700B90876 /* Assets.xcassets */,
+				57CE761227E51A8700B90876 /* LaunchScreen.storyboard */,
+				57CE761527E51A8700B90876 /* Info.plist */,
+			);
+			path = MindfulMinutesStoryboard;
+			sourceTree = "<group>";
+		};
+		57CE761D27E51A8700B90876 /* MindfulMinutesStoryboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				57CE761E27E51A8700B90876 /* MindfulMinutesStoryboardTests.swift */,
+			);
+			path = MindfulMinutesStoryboardTests;
+			sourceTree = "<group>";
+		};
+		57CE762727E51A8700B90876 /* MindfulMinutesStoryboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57CE762827E51A8700B90876 /* MindfulMinutesStoryboardUITests.swift */,
+				57CE762A27E51A8700B90876 /* MindfulMinutesStoryboardUITestsLaunchTests.swift */,
+			);
+			path = MindfulMinutesStoryboardUITests;
+			sourceTree = "<group>";
+		};
+		57CE763727E51AA600B90876 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57CE763827E51AA600B90876 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57CE760327E51A8500B90876 /* MindfulMinutesStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CE762E27E51A8700B90876 /* Build configuration list for PBXNativeTarget "MindfulMinutesStoryboard" */;
+			buildPhases = (
+				57CE760027E51A8500B90876 /* Sources */,
+				57CE760127E51A8500B90876 /* Frameworks */,
+				57CE760227E51A8500B90876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindfulMinutesStoryboard;
+			productName = MindfulMinutesStoryboard;
+			productReference = 57CE760427E51A8500B90876 /* MindfulMinutesStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57CE761927E51A8700B90876 /* MindfulMinutesStoryboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CE763127E51A8700B90876 /* Build configuration list for PBXNativeTarget "MindfulMinutesStoryboardTests" */;
+			buildPhases = (
+				57CE761627E51A8700B90876 /* Sources */,
+				57CE761727E51A8700B90876 /* Frameworks */,
+				57CE761827E51A8700B90876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CE761C27E51A8700B90876 /* PBXTargetDependency */,
+			);
+			name = MindfulMinutesStoryboardTests;
+			productName = MindfulMinutesStoryboardTests;
+			productReference = 57CE761A27E51A8700B90876 /* MindfulMinutesStoryboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57CE762327E51A8700B90876 /* MindfulMinutesStoryboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57CE763427E51A8700B90876 /* Build configuration list for PBXNativeTarget "MindfulMinutesStoryboardUITests" */;
+			buildPhases = (
+				57CE762027E51A8700B90876 /* Sources */,
+				57CE762127E51A8700B90876 /* Frameworks */,
+				57CE762227E51A8700B90876 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57CE762627E51A8700B90876 /* PBXTargetDependency */,
+			);
+			name = MindfulMinutesStoryboardUITests;
+			productName = MindfulMinutesStoryboardUITests;
+			productReference = 57CE762427E51A8700B90876 /* MindfulMinutesStoryboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57CE75FC27E51A8500B90876 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					57CE760327E51A8500B90876 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					57CE761927E51A8700B90876 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 57CE760327E51A8500B90876;
+					};
+					57CE762327E51A8700B90876 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 57CE760327E51A8500B90876;
+					};
+				};
+			};
+			buildConfigurationList = 57CE75FF27E51A8500B90876 /* Build configuration list for PBXProject "MindfulMinutesStoryboard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57CE75FB27E51A8500B90876;
+			productRefGroup = 57CE760527E51A8500B90876 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57CE760327E51A8500B90876 /* MindfulMinutesStoryboard */,
+				57CE761927E51A8700B90876 /* MindfulMinutesStoryboardTests */,
+				57CE762327E51A8700B90876 /* MindfulMinutesStoryboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57CE760227E51A8500B90876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CE761427E51A8700B90876 /* LaunchScreen.storyboard in Resources */,
+				57CE761127E51A8700B90876 /* Assets.xcassets in Resources */,
+				57CE760F27E51A8500B90876 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE761827E51A8700B90876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE762227E51A8700B90876 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57CE760027E51A8500B90876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CE760C27E51A8500B90876 /* ViewController.swift in Sources */,
+				57CE760827E51A8500B90876 /* AppDelegate.swift in Sources */,
+				57CE760A27E51A8500B90876 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE761627E51A8700B90876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CE761F27E51A8700B90876 /* MindfulMinutesStoryboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57CE762027E51A8700B90876 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CE762927E51A8700B90876 /* MindfulMinutesStoryboardUITests.swift in Sources */,
+				57CE762B27E51A8700B90876 /* MindfulMinutesStoryboardUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57CE761C27E51A8700B90876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CE760327E51A8500B90876 /* MindfulMinutesStoryboard */;
+			targetProxy = 57CE761B27E51A8700B90876 /* PBXContainerItemProxy */;
+		};
+		57CE762627E51A8700B90876 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57CE760327E51A8500B90876 /* MindfulMinutesStoryboard */;
+			targetProxy = 57CE762527E51A8700B90876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57CE760D27E51A8500B90876 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CE760E27E51A8500B90876 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57CE761227E51A8700B90876 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57CE761327E51A8700B90876 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57CE762C27E51A8700B90876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57CE762D27E51A8700B90876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57CE762F27E51A8700B90876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MindfulMinutesStoryboard/MindfulMinutesStoryboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J6G267KDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindfulMinutesStoryboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasternMichiganUniversity.MindfulMinutesStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57CE763027E51A8700B90876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MindfulMinutesStoryboard/MindfulMinutesStoryboardRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J6G267KDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MindfulMinutesStoryboard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasternMichiganUniversity.MindfulMinutesStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57CE763227E51A8700B90876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasternMichiganUniversity.MindfulMinutesStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindfulMinutesStoryboard.app/MindfulMinutesStoryboard";
+			};
+			name = Debug;
+		};
+		57CE763327E51A8700B90876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2J6G267KDL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasternMichiganUniversity.MindfulMinutesStoryboardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindfulMinutesStoryboard.app/MindfulMinutesStoryboard";
+			};
+			name = Release;
+		};
+		57CE763527E51A8700B90876 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasternMichiganUniversity.MindfulMinutesStoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindfulMinutesStoryboard;
+			};
+			name = Debug;
+		};
+		57CE763627E51A8700B90876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.EasternMichiganUniversity.MindfulMinutesStoryboardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindfulMinutesStoryboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57CE75FF27E51A8500B90876 /* Build configuration list for PBXProject "MindfulMinutesStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CE762C27E51A8700B90876 /* Debug */,
+				57CE762D27E51A8700B90876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CE762E27E51A8700B90876 /* Build configuration list for PBXNativeTarget "MindfulMinutesStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CE762F27E51A8700B90876 /* Debug */,
+				57CE763027E51A8700B90876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CE763127E51A8700B90876 /* Build configuration list for PBXNativeTarget "MindfulMinutesStoryboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CE763227E51A8700B90876 /* Debug */,
+				57CE763327E51A8700B90876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57CE763427E51A8700B90876 /* Build configuration list for PBXNativeTarget "MindfulMinutesStoryboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57CE763527E51A8700B90876 /* Debug */,
+				57CE763627E51A8700B90876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57CE75FC27E51A8500B90876 /* Project object */;
+}
